@@ -1,0 +1,17 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "/execute as @e[distance=..10] at @s run effect give @s minecraft:speed 10 0 true"
+    },
+    "cooldown": 600,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 2
+    },
+    "name": "Pico de Adrenalina",
+    "description": "ATIVE para dar um boost de vocidade para >todos< ao seu redor. PS.: Isso pode afetar positivamente o killer",
+    "key": {
+        "key": "key.sneak"
+    }
+}

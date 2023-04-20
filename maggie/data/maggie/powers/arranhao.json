@@ -1,0 +1,15 @@
+{
+    "name":"Só um arranhão!",
+    "description":"Passivamente se cura.",
+    
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:heal",
+        "amount": 1
+    },
+    "interval": 200,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 2
+    }
+}
